@@ -9,6 +9,7 @@ body{
     font-family: 'Nunito', sans-serif;
 }
 
+
 header{
     display: flex;
     justify-content: space-around;
@@ -25,6 +26,7 @@ header div{
     width: 12vw;
 }
 
+
 header ul{
     display: flex;
     justify-content: space-evenly;
@@ -32,9 +34,11 @@ header ul{
     font-size: 18px;
 }
 
+
 header ul li{
     list-style: none;
 }
+
 
 header ul li a{
     list-style: none;
@@ -42,45 +46,38 @@ header ul li a{
     color: #242424;
 }
 
-main {
+main{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     height: 80vh;
 }
 
-main div{
-    color: #242424;
-    font-size: 36px;
-    position: relative;
-    bottom: 38px;
+h1{
+    width: 36vw;
 }
 
-main div button{
-    width: 290px;
-    height: 58px;
+button{
+    background-color: #fca60f;
+    color: white;
+    border: none;
     border-radius: 5px;
-    font-size: 20px;
-    color: #FFFFFF;
-    background-color: #FCA60F;
-    border-color: #FCA60F;
-    position: relative;
-    top: 70px;
+    height: 6vh;
+    width: 14vw;
+    cursor: pointer;
+    font-size: 15px;
 }
 
-footer nav{
-    display: flex;
-    justify-content: space-around;
-    width: 8vw;
-    position: relative;
-    left: 280px;
-    bottom: 130px;
-}
 
 @media (max-width:500px){
     header{
         flex-direction: column;
         height: 18vh;
+    }
+
+    header div{
+        width: 50vw;
+        justify-content: space-around;
     }
 
     header ul{
